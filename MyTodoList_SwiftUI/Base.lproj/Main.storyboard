@@ -19,6 +19,17 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xTD-Pc-ZDQ">
                                 <rect key="frame" x="16" y="76" width="361" height="44"/>
                                 <items>
+                                    <barButtonItem style="plain" id="dqa-UM-SfF">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Qu9-nF-GWR">
+                                            <rect key="frame" x="16" y="5" width="75" height="34.333333333333336"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Edit"/>
+                                            <connections>
+                                                <action selector="btnEdit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GTI-KW-BOX"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="MPx-fw-h2A"/>
                                     <barButtonItem style="plain" id="fvH-aW-Imf">
                                         <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="q2p-6M-SOI">
@@ -27,7 +38,7 @@
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" title="Create"/>
                                             <connections>
-                                                <action selector="btnNewCreate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Upc-Bd-LLZ"/>
+                                                <action selector="btnCreate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Upc-Bd-LLZ"/>
                                             </connections>
                                         </button>
                                         <connections>
